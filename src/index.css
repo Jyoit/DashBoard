@@ -1,0 +1,103 @@
+* {
+  background-color: white;
+}
+.Bodyy {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  padding-left: 30%;
+  background-color: white;
+  color: black;
+}
+.Docsinput {
+  background-color: whitesmoke;
+  color: gray;
+}
+.Bodyy img {
+  width: 80%;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.boody {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  display: flex;
+}
+
+.sidebar {
+  height: 100vh; /* Full height of the viewport */
+  width: 290px; /* Adjust width as needed */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+
+  overflow-y: auto; /* Enable scrolling if content exceeds sidebar height */
+}
+.sidebar input {
+  background-color: white;
+}
+.sidebar button {
+  background-color: #f1f1f1;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  color: rgb(26, 25, 25);
+}
+
+.content {
+  flex-grow: 1;
+  padding: 16px;
+}
+
+/* Style the scrollbar if needed */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 20%; /* Collapse the sidebar by default */
+  }
+
+  .toggle {
+    display: none; /* Hide the toggle icon */
+  }
+
+  .sidebar.open {
+    width: 100%; /* Expand the sidebar when toggled */
+  }
+
+  .sidebar ul {
+    display: block; /* Display the list items */
+  }
+}

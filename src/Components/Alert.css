@@ -1,0 +1,30 @@
+.alert-window {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #7fa1df; /* Example color for alert background */
+    color: #ffffff; /* Example color for alert text */
+    padding: 15px;
+    box-sizing: border-box;
+    z-index: 9999; /* Ensure the alert appears on top */
+    height: 50px;
+    text-align: center;
+  }
+  
+  .alert-message {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #f7f7f7; /* Example color for close button */
+  }
+  
