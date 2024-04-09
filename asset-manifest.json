@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DashBoard/static/css/main.4943c611.css",
+    "main.js": "/DashBoard/static/js/main.64323331.js",
+    "static/js/453.b02d5140.chunk.js": "/DashBoard/static/js/453.b02d5140.chunk.js",
+    "index.html": "/DashBoard/index.html",
+    "main.4943c611.css.map": "/DashBoard/static/css/main.4943c611.css.map",
+    "main.64323331.js.map": "/DashBoard/static/js/main.64323331.js.map",
+    "453.b02d5140.chunk.js.map": "/DashBoard/static/js/453.b02d5140.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4943c611.css",
+    "static/js/main.64323331.js"
+  ]
+}
